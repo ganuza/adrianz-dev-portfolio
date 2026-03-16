@@ -7,13 +7,13 @@ import Footer from './components/Footer/Footer'
 
 function App() {
   return (
-    <div className="max-h-screen bg-white text-slate-700">
+    <div className="min-h-screen bg-white text-slate-700 flex items-center justify-center">
       {/* <Navbar /> */}
       <main className="max-w-5xl mx-auto px-6">
         {/* <Hero /> */}
         {/* <Projects /> */}
-        <h1 className="text-6xl mt-200">Adrian Z</h1>
-        <p className="text-3xl">Portfolio coming soon.</p>
+        <h1 className="text-6xl font-semibold mb-4">Adrian Zabolitzki</h1>
+        <p className="text-2xl text-slate-500">Portfolio coming soon.</p>
         {/* <About /> */}
         {/* <Contact /> */}
       </main>
