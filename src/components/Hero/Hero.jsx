@@ -1,4 +1,24 @@
 function Hero() {
-  return <section className="py-16">Hero Component</section>
+  return (
+    <section className="min-h-screen flex flex-col justify-center md:flex-row md:items-center">
+      <article className="w-full md:w-1/2 flex justify-center md:items-center md:px-10">
+        <div className="max-w-lg text-center md:text-left">
+          <h1 className="text-5xl md:text-6xl font-semibold tracking-tight">
+            Adrian Zabolitzki
+          </h1>
+          <p className="text-2xl text-slate-300 mt-4">Software Developer</p>
+          <p className="text-lg text-slate-400 mt-2">
+            I build thoughtful web applications using React and modern frontend
+            tools.
+          </p>
+        </div>
+      </article>
+      <article className="w-full md:w-1/2 flex justify-center items-center mt-20 md:mt-0">
+        <div className="max-w-6xl w-3/4 aspect-[4/3] border border-slate-600 flex justify-center items-center">
+          <p>image goes here</p>
+        </div>
+      </article>
+    </section>
+  )
 }
 export default Hero
