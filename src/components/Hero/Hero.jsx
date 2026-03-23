@@ -10,9 +10,9 @@ function Hero() {
       />
       <div className="absolute inset-0 bg-gradient-to-r from-slate-900/80 via-slate-900/50 via-40% to-transparent" />
 
-      <div className="relative mx-auto grid max-w-[94rem] gap-10 md:min-h-screen md:grid-cols-2 md:items-center md:gap-10 lg:gap-12">
-        <article className="flex justify-center md:justify-start">
-          <div className="max-w-2xl text-center md:text-left">
+      <div className="relative mx-auto grid max-w-[94rem] gap-10 lg:min-h-screen lg:grid-cols-2 lg:items-center lg:gap-12">
+        <article className="flex justify-center lg:justify-start">
+          <div className="max-w-2xl text-center lg:text-left">
             <h1 className="text-4xl sm:text-5xl md:text-6xl font-semibold tracking-tight">
               Adrian Zabolitzki
             </h1>
@@ -26,7 +26,7 @@ function Hero() {
               background in hospitality and science, and a love of the outdoors.
             </p>
 
-            <div className="mt-8 flex flex-col gap-4 justify-center sm:flex-row sm:mt-10 md:justify-start">
+            <div className="mt-8 flex flex-col gap-4 justify-center sm:flex-row sm:mt-10 lg:justify-start">
               <button className="w-full rounded-xl text-white bg-[#b86a3a] px-8 py-3 shadow-md hover:shadow-lg cursor-pointer transition duration-200 ease-in-out hover:-translate-y-0.5 hover:bg-[#9a552f] sm:w-auto md:w-44 lg:w-auto">
                 View My Work
               </button>
@@ -38,12 +38,12 @@ function Hero() {
           </div>
         </article>
 
-        <article className="flex justify-center md:justify-end">
-          <div className="relative w-full max-w-2xl aspect-[4/3] overflow-hidden rounded-2xl shadow-lg">
+        <article className="flex justify-center lg:justify-end">
+          <div className="group relative w-full max-w-2xl md:max-w-xl lg:max-w-2xl aspect-[4/3] overflow-hidden rounded-2xl shadow-lg">
             <img
               src={heroImage}
               alt="Mountain ridge in Colorado"
-              className="w-full h-full object-cover"
+              className="w-full h-full object-cover transition duration-500 ease-out group-hover:scale-[1.03] group-hover:brightness-105"
             />
             <div className="pointer-events-none absolute inset-0 bg-gradient-to-r from-slate-900/70 via-slate-900/30 to-transparent" />
           </div>
